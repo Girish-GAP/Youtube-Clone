@@ -3,6 +3,8 @@ import { Typography, Card, CardContent, CardMedia } from "@mui/material"
 import { CheckCircle, LoginSharp } from "@mui/icons-material"
 import { demoThumbnailUrl, demoVideoUrl, demoVideoTitle, demoChannelUrl, demoChannelTitle } from "../utils/constants"
 
+
+// the card of youtube videos
 const VideoCard = ( {video : {id : {videoId}, snippet}}) => {
   return (
     <Card>
@@ -19,3 +21,5 @@ const VideoCard = ( {video : {id : {videoId}, snippet}}) => {
 }
 
 export default VideoCard
+
+
